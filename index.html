@@ -7,10 +7,10 @@
     <title>Another Look on Cloud Applications | by Alex Carver</title>
     
 
-    <link href="https://alexcarver.github.io/impress.js/css/impress-demo.css" rel="stylesheet" />
+    <link href="https://rhildred.github.io/impress.js/css/impress-demo.css" rel="stylesheet" />
     
-    <link rel="shortcut icon" href="https://alexcarver.github.io/impress.js/favicon.png" />
-    <link rel="apple-touch-icon" href="https://alexcarver.github.io/impress.js/apple-touch-icon.png" />
+    <link rel="shortcut icon" href="https://rhildred.github.io/impress.js/favicon.png" />
+    <link rel="apple-touch-icon" href="https://rhildred.github.io/impress.js/apple-touch-icon.png" />
 </head>
 
 
@@ -119,6 +119,21 @@ if ("ontouchstart" in document.documentElement) {
 
 </body>
 </html>
+
+.impress-not-supported .step {
+  margin: 20px auto;
+  opacity: 1;
+  position: realative;
+}
+
+.fallback-message {
+  display: none;
+  margin: 20px auto
+}
+
+.impress-not-supported .fallback-message {
+  display: block;
+}
 
 <!--
 Impress.js script
